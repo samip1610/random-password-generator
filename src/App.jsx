@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import "./index.css";
 
-const App = () => {
+const App = () => { 
   // State hooks
   const [username, setUsername] = useState('');
   const [phoneNumber, setPhoneNumber] = useState('');
